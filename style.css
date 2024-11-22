@@ -1,0 +1,24 @@
+.custom-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: left;
+}
+
+.custom-table thead tr{
+    background-color:bisque;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+.custom-table tbody tr:nth-child(even){
+    background-color:bisque;
+}
+
+.custom-table tbody tr:hover{
+    background-color: #ddd;
+}
